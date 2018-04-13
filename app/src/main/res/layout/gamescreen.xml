@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/categoryframe"
+        android:layout_width="375dp"
+        android:layout_height="320dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/playerframe"
+        android:layout_width="378dp"
+        android:layout_height="169dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="334dp">
+
+
+
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="196dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="42dp"
+        android:layout_height="39dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="YOU"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="@color/colorDarkPurple"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <TextView
+        android:id="@+id/vs"
+        android:layout_width="46dp"
+        android:layout_height="28dp"
+        android:fontFamily="cursive"
+        android:text="vs"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <Button
+        android:id="@+id/computer"
+        android:layout_width="191dp"
+        android:layout_height="73dp"
+        android:text="Computer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="230dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/multiuser"
+        android:layout_width="186dp"
+        android:layout_height="77dp"
+        android:text="Multiuser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="312dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/online"
+        android:layout_width="184dp"
+        android:layout_height="65dp"
+        android:text="play with  Online partner"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="402dp"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>
